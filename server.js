@@ -17,6 +17,9 @@ const db = knex({
     user: 'face_recognition_db_gapm_user',
     password: '7bhFmYeCqQZSaHMqTdaqfvoVhKP0eaQT',
     database: 'face_recognition_db_gapm',
+    ssl: {                          
+      rejectUnauthorized: false
+    }
   },
 });
 
