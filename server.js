@@ -12,11 +12,11 @@ const image = require('./controllers/image.js');
 const db = knex({
   client: 'pg',
   connection: {
-    host: '127.0.0.1',
+    host: 'dpg-d63qnmnpm1nc73bp513g-a',
     port: 5432,
-    user: 'mihaibudoi',
-    password: '',
-    database: 'Smart',
+    user: 'face_recognition_db_gapm_user',
+    password: '7bhFmYeCqQZSaHMqTdaqfvoVhKP0eaQT',
+    database: 'face_recognition_db_gapm',
   },
 });
 
