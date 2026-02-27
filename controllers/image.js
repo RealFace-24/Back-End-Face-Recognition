@@ -1,7 +1,7 @@
 const Clarifai = require('clarifai');
 const returnClarifaiRequestOptions = (imageUrl) => {
   
-  const PAT = 'YOUR API KEY';
+  const PAT = '6173443f93f14a87a3db96a45c9f7344';
   const USER_ID = 'clarifai';       
   const APP_ID = 'main';
   const IMAGE_URL = imageUrl;
